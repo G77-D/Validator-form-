@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+*{
+  box-sizing: border-box;
+
+}
+body{
+  background-color: #f9fafb;
+  font-family:'Open Sans', sans-serif;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+}
+
+/* The reason we are using flex is because we want to center the content vertically and horizontally.
+The reason we use align items to center the content vertically*/
+/* The reason we use min-height is because we want the content to be at least the height of the viewport. */
+/* The reason we use justify-content is because we want to center the content horizontally. */
+
