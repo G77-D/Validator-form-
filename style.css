@@ -12,11 +12,51 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-
+  margin: 0;
 }
 
 /* The reason we are using flex is because we want to center the content vertically and horizontally.
 The reason we use align items to center the content vertically*/
 /* The reason we use min-height is because we want the content to be at least the height of the viewport. */
 /* The reason we use justify-content is because we want to center the content horizontally. */
+
+
+.container {
+background-color: #fff;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.0.3);
+width:400px;
+}
+
+/*The container raps  around the whole content.*/ 
+/*The reason we use border-radius is because we want to round the corners of the container.*/
+/*The reason we use box-shadow is because we want to add a shadow to the container.*/
+/*The reason we use rgba is because we want to add a shadow to the container.*/
+
+h2{
+  text-align: center;
+  margin: 0 0 20px ;
+}
+
+
+.form{
+  padding: 30px 40px;
+
+}
+
+.form-control{
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+/*The reason we use position relative is because we want to position the label relative to the input.*/
+
+.form-control label{
+  color:#777;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/*The reason we use display block is because we want the label to be on top of the input.*/
 
