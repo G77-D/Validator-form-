@@ -5,6 +5,7 @@
   box-sizing: border-box;
 
 }
+
 body{
   background-color: #f9fafb;
   font-family:'Open Sans', sans-serif;
@@ -24,7 +25,7 @@ The reason we use align items to center the content vertically*/
 .container {
 background-color: #fff;
 border-radius: 5px;
-box-shadow: 0 2px 4px rgba(0,0,0,0.0.3);
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 width:400px;
 }
 
@@ -60,3 +61,27 @@ h2{
 
 /*The reason we use display block is because we want the label to be on top of the input.*/
 
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width:100;
+padding: 10px;
+font-size: 14px;
+}
+
+/*The reason we use border is because we want to add a border to the input.*/
+/*The reason we use border-radius is because we want to round the corners of the input.*/
+
+.form-control input:focus{
+  outline: none;
+  border-color: #777;
+}
+
+/*The reason we use outline is because we want to remove the outline when the input is focused.*/   
+
+.form-control.success input{
+  border-color: #2ecc71;
+} 
+
+/*The reason we use success is because we want to add a green border when the input is focused.*/
